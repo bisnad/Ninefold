@@ -1,0 +1,25 @@
+Ninefold Swarm Presets:
+
+100: stationary, spread out, slow attraction to preset, stays very close to preset
+200: classical bods, orbits around preset when attracted
+300: parallel movement in fixed direction, orbits around present when attracted
+400: attraction and sudden repulsion, both among agents themselves and presets
+500: twirling swarm with lots of movement
+600: large independent movements, also large orbits around presets
+
+Ephraim Controls
+
+1. Max Preset 600 (all preset agents invisible)
+2. Max Preset 600 (preset agent 1 visible, all other invisible)
+3. Max Preset 600 (preset agent 2 visible, all other invisible)
+4. Max Preset 600 (preset agent 1 visible, all other invisible)
+5. Max Preset 100 (preset agent 1 visible, all other invisible)
+6. Max Preset 100 (all preset agents invisible)
+7. Max Preset 300 (all preset agents invisible)
+8. Max Preset 300 (all preset agents invisible) Freeze Dim 0 - 2
+9. Max Preset 500 (all preset agents invisible) Freeze Dim 0 - 2
+10. Max Preset 500 (all preset agents invisible) Unfreeze Dim 0 - 2
+11. Max Preset 500 (preset agent 1 visible, all other invisible)
+12. Max Preset 500 (preset agent 1 visible, all other invisible) Freeze Dim 0 - 2
+13. Max Preset 500 (preset agent 1 visible, all other invisible) Freeze Dim 0 - 2 and Dim 3 - 5
+14. Max Preset 500 (preset agent 1 visible, all other invisible) Freeze Dim 0 - 2 and Dim 3 - 5 and Dim 6 - 8

@@ -1,0 +1,24 @@
+Nuc Installation Procedure
+
+>> Install GNU Make compilation tool 
+sudo apt update
+sudo apt install make
+sudo apt install build-essential
+
+>> Install Miniconda
+Download Miniconda for Linux from: https://www.anaconda.com/download/success
+bash Miniconda3-latest-Linux-x86_64.sh
+restart Terminal
+conda config --add channels conda-forge
+
+>> Install "Ninefold" Anaconda environment
+conda env create -f Ninefold_Linux_x86.yml
+
+>> Install Arduino Linux
+Download arduino ide from https://www.arduino.cc/en/software
+Unpack arduino_ide....zip
+Double click arduino-ide
+
+>> Grant Access to /dev/ttyACM0 (for opening a serial connection to the arduino)
+
+sudo usermod -a -G dialout $USER

@@ -1,0 +1,9 @@
+ofxAssimpModelLoader
+ofxDabBase
+ofxDabEvent
+ofxDabFlock
+ofxDabGeom
+ofxDabMath
+ofxDabOsc
+ofxDabSpace
+ofxJSON

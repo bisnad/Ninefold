@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2026-06-17T19:05:56Z",
+        "GenerationSoftware": {
+            "Application": "Fusion Electronics",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.6608,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "NineFold_PCB v7"
+        },
+        "Owner": "Daniel Bisig <daniel.bisig@zhdk.ch>",
+        "Size": {
+            "X": 27.94,
+            "Y": 62.23
+        }
+    }
+}

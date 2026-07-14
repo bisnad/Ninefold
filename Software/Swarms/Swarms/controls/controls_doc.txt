@@ -1,0 +1,449 @@
+Max GUI Name 	: OSC Message Address 	: OSC Message Parameters
+
+sim_rate 		: /SetSimulationRate 	: <sim_rate (float)>
+
+step_size		: /SetParameter 		: <"swarm" (string)>, <"integration_timestep" (string)>, <step_size * dim02active (float)>, <step_size * dim02active (float)>, <step_size * dim02active (float)>, <step_size * dim35active (float)>, <step_size * dim35active (float)>, <step_size * dim35active (float)>, <step_size * dim68active (float)>, <step_size * dim35active (float)>, <step_size * dim68active (float)>, <step_size * dim35active (float)>, <step_size * dim68active (float)>
+
+turning_amount 	: /SetParameter			: <"swarm" (string)>, <"acceleration_maxAngularAcceleration" (string)>, <turning_amount (float)>, <turning_amount (float)>, <turning_amount (float)>, <turning_amount (float)>, <turning_amount (float)>, <turning_amount (float)>, <turning_amount (float)>, <turning_amount (float)>, <turning_amount (float)>
+
+boundary_size0
+boundary_size1
+boundary_size2
+boundary_size3
+boundary_size4
+boundary_size5
+boundary_size6
+boundary_size7
+boundary_size8
+boundary_pos0
+boundary_pos1
+boundary_pos2
+boundary_pos3
+boundary_pos4
+boundary_pos5
+boundary_pos6
+boundary_pos7
+boundary_pos8
+boundary_size0 	: /SetParameter 		: <"swarm" (string)>, <"boundaryMirror_upperBoundary" (string)>, <boundary_pos0 + boundary_size0 * 0.5 (float)>, <boundary_pos1 + boundary_size1 * 0.5 (float)>, <boundary_pos2 + boundary_size2 * 0.5 (float)>, <boundary_pos3 + boundary_size3 * 0.5 (float)>, <boundary_pos4 + boundary_size4 * 0.5 (float)>, <boundary_pos5 + boundary_size5 * 0.5 (float)>, <boundary_pos6 + boundary_size6 * 0.5 (float)>, <boundary_pos7 + boundary_size7 * 0.5 (float)>, <boundary_pos8 + boundary_size8 * 0.5 (float)>
+boundary_size0 	: /SetParameter 		: <"swarm" (string)>, <"boundaryWrap_upperBoundary" (string)>, <boundary_pos0 + boundary_size0 * 0.5 (float)>, <boundary_pos1 + boundary_size1 * 0.5 (float)>, <boundary_pos2 + boundary_size2 * 0.5 (float)>, <boundary_pos3 + boundary_size3 * 0.5 (float)>, <boundary_pos4 + boundary_size4 * 0.5 (float)>, <boundary_pos5 + boundary_size5 * 0.5 (float)>, <boundary_pos6 + boundary_size6 * 0.5 (float)>, <boundary_pos7 + boundary_size7 * 0.5 (float)>, <boundary_pos8 + boundary_size8 * 0.5 (float)>
+boundary_size0 	: /SetParameter 		: <"swarm" (string)>, <"boundaryRepulsion_upperBoundary" (string)>, <boundary_pos0 + boundary_size0 * 0.5 (float)>, <boundary_pos1 + boundary_size1 * 0.5 (float)>, <boundary_pos2 + boundary_size2 * 0.5 (float)>, <boundary_pos3 + boundary_size3 * 0.5 (float)>, <boundary_pos4 + boundary_size4 * 0.5 (float)>, <boundary_pos5 + boundary_size5 * 0.5 (float)>, <boundary_pos6 + boundary_size6 * 0.5 (float)>, <boundary_pos7 + boundary_size7 * 0.5 (float)>, <boundary_pos8 + boundary_size8 * 0.5 (float)>
+boundary_size0 	: /SetParameter 		: <"swarm" (string)>, <"boundaryMirror_lowerBoundary" (string)>, <boundary_pos0 - boundary_size0 * 0.5 (float)>, <boundary_pos1 - boundary_size1 * 0.5 (float)>, <boundary_pos2 - boundary_size2 * 0.5 (float)>, <boundary_pos3 - boundary_size3 * 0.5 (float)>, <boundary_pos4 - boundary_size4 * 0.5 (float)>, <boundary_pos5 - boundary_size5 * 0.5 (float)>, <boundary_pos6 - boundary_size6 * 0.5 (float)>, <boundary_pos7 - boundary_size7 * 0.5 (float)>, <boundary_pos8 - boundary_size8 * 0.5 (float)>
+boundary_size0 	: /SetParameter 		: <"swarm" (string)>, <"boundaryWrap_lowerBoundary" (string)>, <boundary_pos0 - boundary_size0 * 0.5 (float)>, <boundary_pos1 - boundary_size1 * 0.5 (float)>, <boundary_pos2 - boundary_size2 * 0.5 (float)>, <boundary_pos3 - boundary_size3 * 0.5 (float)>, <boundary_pos4 - boundary_size4 * 0.5 (float)>, <boundary_pos5 - boundary_size5 * 0.5 (float)>, <boundary_pos6 - boundary_size6 * 0.5 (float)>, <boundary_pos7 - boundary_size7 * 0.5 (float)>, <boundary_pos8 - boundary_size8 * 0.5 (float)>
+boundary_size0 	: /SetParameter 		: <"swarm" (string)>, <"boundaryRepulsion_lowerBoundary" (string)>, <boundary_pos0 - boundary_size0 * 0.5 (float)>, <boundary_pos1 - boundary_size1 * 0.5 (float)>, <boundary_pos2 - boundary_size2 * 0.5 (float)>, <boundary_pos3 - boundary_size3 * 0.5 (float)>, <boundary_pos4 - boundary_size4 * 0.5 (float)>, <boundary_pos5 - boundary_size5 * 0.5 (float)>, <boundary_pos6 - boundary_size6 * 0.5 (float)>, <boundary_pos7 - boundary_size7 * 0.5 (float)>, <boundary_pos8 - boundary_size8 * 0.5 (float)>
+
+boundary_mirror_active	: /SetParameter 	: <"swarm" (string)>, <"boundaryMirror_active" (string)>,  <boundary_mirror_active (float)>
+
+boundary_wrap_active	: /SetParameter 	: <"swarm" (string)>, <"boundaryWrap_active" (string)>,  <boundary_wrap_active (float)>
+
+boundary_repulsion_active	: /SetParameter 	: <"swarm" (string)>, <"boundaryRepulsion_active" (string)>,  <boundary_repulsion_active (float)>
+
+mass					: /SetParameter 		: <"swarm" (string)>, <"mass" (string)>, <mass (float)>
+
+random 					: /SetParameter 		: <"swarm" (string)>, <"randomize_range" (string)>, <random (float)>
+
+velocity 				: /SetParameter 		: <"swarm" (string)>, <"damping_prefVelocity" (string)>, <velocity (float)>
+
+velocity_damping 		: /SetParameter 		: <"swarm" (string)>, <"damping_amount" (string)>, <velocity_damping (float)>
+
+target_pos0
+target_pos1
+target_pos2
+target_pos3
+target_pos4
+target_pos5
+target_pos6
+target_pos7
+target_pos8 			: /SetParameter			: <"swarm" (string)>, <"targetPos_target" (string)>, <target_pos0 (float)>, <target_pos1 (float)>, <target_pos2 (float)>, <target_pos3 (float)>, <target_pos4 (float)>, <target_pos5 (float)>, <target_pos6 (float)>, <target_pos7 (float)>, <target_pos8 (float)>
+
+target_position_amount 	: /SetParameter			: <"swarm" (string)>, <"targetPos_amount" (string)>, <target_position_amount (float)>
+
+target_vel0
+target_vel1
+target_vel2
+target_vel3
+target_vel4
+target_vel5
+target_vel6
+target_vel7
+target_vel8 			: /SetParameter			: <"swarm" (string)>, <"targetVel_target" (string)>, <target_vel0 (float)>, <target_vel1 (float)>, <target_vel2 (float)>, <target_vel3 (float)>, <target_vel4 (float)>, <target_vel5 (float)>, <target_vel6 (float)>, <target_vel7 (float)>, <target_vel8 (float)>
+
+target_vel_amount 		: /SetParameter			: <"swarm" (string)>, <"targetVel_amount" (string)>, <target_vel_amount (float)>
+
+evasion_dist 			: /SetParameter			: <"swarm" (string)>, <"evasion_maxDist" (string)>, <evasion_dist (float)>
+
+evasion_amount 			: /SetParameter			: <"swarm" (string)>, <"evasion_amount" (string)>, <evasion_amount (float)>
+
+cohesion_dist 			: /SetParameter			: <"swarm" (string)>, <"cohesion_maxDist" (string)>, <cohesion_dist (float)>
+
+cohesion_amount 		: /SetParameter			: <"swarm" (string)>, <"cohesion_amount" (string)>, <cohesion_amount (float)>
+
+alignment_dist 			: /SetParameter			: <"swarm" (string)>, <"alignment_maxDist" (string)>, <alignment_dist (float)>
+
+alignment_amount 		: /SetParameter			: <"swarm" (string)>, <"alignment_amount" (string)>, <alignment_amount (float)>
+
+preset_evasion_dist 	: /SetParameter			: <"swarm" (string)>, <"preset_evasion_maxDist" (string)>, <preset_evasion_dist (float)>
+
+preset_evasion_amount 	: /SetParameter			: <"swarm" (string)>, <"preset_evasion_amount" (string)>, <preset_evasion_amount (float)>
+
+preset_cohesion_dist 	: /SetParameter			: <"swarm" (string)>, <"preset_cohesion_maxDist" (string)>, <preset_cohesion_dist (float)>
+
+preset_cohesion_amount 	: /SetParameter			: <"swarm" (string)>, <"preset_cohesion_amount" (string)>, <preset_cohesion_amount (float)>
+
+preset_alignment_dist 	: /SetParameter			: <"swarm" (string)>, <"preset_alignment_maxDist" (string)>, <preset_alignment_dist (float)>
+
+preset_alignment_amount : /SetParameter			: <"swarm" (string)>, <"preset_alignment_amount" (string)>, <preset_alignment_amount (float)>
+
+preset0_pos0
+preset0_pos1
+preset0_pos2
+preset0_pos3
+preset0_pos4
+preset0_pos5
+preset0_pos6
+preset0_pos7
+preset0_pos8 			: /SetParameter			: <"preset_swarm" (string)>, <"position" (string)>, <0 (int)>, <preset0_pos0 (float)>, <preset0_pos1 (float)>, <preset0_pos2 (float)>, <preset0_pos3 (float)>, <preset0_pos4 (float)>, <preset0_pos5 (float)>, <preset0_pos6 (float)>, <preset0_pos7 (float)>, <preset0_pos8 (float)>
+
+preset0_pos0[1]
+preset0_pos1[1]
+preset0_pos2[1]
+preset0_pos3[1]
+preset0_pos4[1]
+preset0_pos5[1]
+preset0_pos6[1]
+preset0_pos7[1]
+preset0_pos8[1]			: /SetParameter			: <"preset_swarm" (string)>, <"position" (string)>, <1 (int)>, <preset0_pos0[1] (float)>, <preset0_pos1[1] (float)>, <preset0_pos2[1] (float)>, <preset0_pos3[1] (float)>, <preset0_pos4[1] (float)>, <preset0_pos5[1] (float)>, <preset0_pos6[1] (float)>, <preset0_pos7[1] (float)>, <preset0_pos8[1] (float)>
+
+preset0_pos0[2]
+preset0_pos1[2]
+preset0_pos2[2]
+preset0_pos3[2]
+preset0_pos4[2]
+preset0_pos5[2]
+preset0_pos6[2]
+preset0_pos7[2]
+preset0_pos8[2]			: /SetParameter			: <"preset_swarm" (string)>, <"position" (string)>, <2 (int)>, <preset0_pos0[2] (float)>, <preset0_pos1[2] (float)>, <preset0_pos2[2] (float)>, <preset0_pos3[2] (float)>, <preset0_pos4[2] (float)>, <preset0_pos5[2] (float)>, <preset0_pos6[2] (float)>, <preset0_pos7[2] (float)>, <preset0_pos8[2] (float)>
+
+preset0_pos0[3]
+preset0_pos1[3]
+preset0_pos2[3]
+preset0_pos3[3]
+preset0_pos4[3]
+preset0_pos5[3]
+preset0_pos6[3]
+preset0_pos7[3]
+preset0_pos8[3]			: /SetParameter			: <"preset_swarm" (string)>, <"position" (string)>, <3 (int)>, <preset0_pos0[3] (float)>, <preset0_pos1[3] (float)>, <preset0_pos2[3] (float)>, <preset0_pos3[3] (float)>, <preset0_pos4[3] (float)>, <preset0_pos5[3] (float)>, <preset0_pos6[3] (float)>, <preset0_pos7[3] (float)>, <preset0_pos8[3] (float)>
+
+
+					"alignment_amount" : [ 1.0 ],
+					"alignment_amount_interest" : [ 0 ],
+					"alignment_amount_max" : [ 1.0 ],
+					"alignment_amount_min" : [ 0.0 ],
+					"alignment_dist" : [ 3.036190932724958 ],
+					"alignment_dist_interest" : [ 0 ],
+					"alignment_dist_max" : [ 10.0 ],
+					"alignment_dist_min" : [ 0.001 ],
+					"boundary_mirror_active" : [ 0 ],
+					"boundary_pos0" : [ 0.0 ],
+					"boundary_pos0_max" : [ 5.0 ],
+					"boundary_pos0_min" : [ -5.0 ],
+					"boundary_pos1" : [ 0.0 ],
+					"boundary_pos1_max" : [ 5.0 ],
+					"boundary_pos1_min" : [ -5.0 ],
+					"boundary_pos2" : [ 0.0 ],
+					"boundary_pos2_max" : [ 5.0 ],
+					"boundary_pos2_min" : [ -5.0 ],
+					"boundary_pos3" : [ 0.0 ],
+					"boundary_pos3_max" : [ 5.0 ],
+					"boundary_pos3_min" : [ -5.0 ],
+					"boundary_pos4" : [ 0.0 ],
+					"boundary_pos4_max" : [ 5.0 ],
+					"boundary_pos4_min" : [ -5.0 ],
+					"boundary_pos5" : [ 0.0 ],
+					"boundary_pos5_max" : [ 5.0 ],
+					"boundary_pos5_min" : [ -5.0 ],
+					"boundary_pos6" : [ 0.0 ],
+					"boundary_pos6_max" : [ 5.0 ],
+					"boundary_pos6_min" : [ -5.0 ],
+					"boundary_pos7" : [ 0.0 ],
+					"boundary_pos7_max" : [ 5.0 ],
+					"boundary_pos7_min" : [ -5.0 ],
+					"boundary_pos8" : [ 0.0 ],
+					"boundary_pos8_max" : [ 5.0 ],
+					"boundary_pos8_min" : [ -5.0 ],
+					"boundary_pos_interest" : [ 0 ],
+					"boundary_pos_interest[1]" : [ 0 ],
+					"boundary_repulsion_active" : [ 0 ],
+					"boundary_size0" : [ 10.0 ],
+					"boundary_size0_max" : [ 10.0 ],
+					"boundary_size0_min" : [ 0.0 ],
+					"boundary_size1" : [ 10.0 ],
+					"boundary_size1_max" : [ 10.0 ],
+					"boundary_size1_min" : [ 0.0 ],
+					"boundary_size2" : [ 10.0 ],
+					"boundary_size2_max" : [ 10.0 ],
+					"boundary_size2_min" : [ 0.0 ],
+					"boundary_size3" : [ 10.0 ],
+					"boundary_size3_max" : [ 10.0 ],
+					"boundary_size3_min" : [ 0.0 ],
+					"boundary_size4" : [ 10.0 ],
+					"boundary_size4_max" : [ 10.0 ],
+					"boundary_size4_min" : [ 0.0 ],
+					"boundary_size5" : [ 10.0 ],
+					"boundary_size5_max" : [ 10.0 ],
+					"boundary_size5_min" : [ 0.0 ],
+					"boundary_size6" : [ 10.0 ],
+					"boundary_size6_max" : [ 10.0 ],
+					"boundary_size6_min" : [ 0.0 ],
+					"boundary_size7" : [ 10.0 ],
+					"boundary_size7_max" : [ 10.0 ],
+					"boundary_size7_min" : [ 0.0 ],
+					"boundary_size8" : [ 10.0 ],
+					"boundary_size8_max" : [ 10.0 ],
+					"boundary_size8_min" : [ 0.0 ],
+					"boundary_size_interest" : [ 0 ],
+					"boundary_size_interest[1]" : [ 0 ],
+					"boundary_size_interest[2]" : [ 0 ],
+					"boundary_size_interest[3]" : [ 0 ],
+					"boundary_size_interest[4]" : [ 0 ],
+					"boundary_wrap_active" : [ 1 ],
+					"cohesion_amount" : [ 0.090200551782683 ],
+					"cohesion_amount_interest" : [ 0 ],
+					"cohesion_amount_max" : [ 1.0 ],
+					"cohesion_amount_min" : [ 0.0 ],
+					"cohesion_dist" : [ 40.0 ],
+					"cohesion_dist_interest" : [ 0 ],
+					"cohesion_dist_max" : [ 40.0 ],
+					"cohesion_dist_min" : [ 0.001 ],
+					"evasion_amount" : [ 3.806451612903226 ],
+					"evasion_amount_interest" : [ 0 ],
+					"evasion_amount_max" : [ 20.0 ],
+					"evasion_amount_min" : [ 0.0 ],
+					"evasion_dist" : [ 0.641693564303905 ],
+					"evasion_dist_interest" : [ 0 ],
+					"evasion_dist_max" : [ 10.0 ],
+					"evasion_dist_min" : [ 0.001 ],
+					"mass" : [ 0.498300037139219 ],
+					"mass_interest" : [ 0 ],
+					"mass_max" : [ 2.0 ],
+					"mass_min" : [ 0.001 ],
+					"preset0_pos0" : [ -2.0 ],
+					"preset0_pos0[1]" : [ -2.0 ],
+					"preset0_pos0[2]" : [ 2.0 ],
+					"preset0_pos0[3]" : [ 2.0 ],
+					"preset0_pos0_max" : [ 10.0 ],
+					"preset0_pos0_max[1]" : [ 10.0 ],
+					"preset0_pos0_max[2]" : [ 10.0 ],
+					"preset0_pos0_max[3]" : [ 10.0 ],
+					"preset0_pos0_min" : [ -10.0 ],
+					"preset0_pos0_min[1]" : [ -10.0 ],
+					"preset0_pos0_min[2]" : [ -10.0 ],
+					"preset0_pos0_min[3]" : [ -10.0 ],
+					"preset0_pos1" : [ -2.0 ],
+					"preset0_pos1[1]" : [ 2.0 ],
+					"preset0_pos1[2]" : [ 2.0 ],
+					"preset0_pos1[3]" : [ -2.0 ],
+					"preset0_pos1_max" : [ 10.0 ],
+					"preset0_pos1_max[1]" : [ 10.0 ],
+					"preset0_pos1_max[2]" : [ 10.0 ],
+					"preset0_pos1_max[3]" : [ 10.0 ],
+					"preset0_pos1_min" : [ -10.0 ],
+					"preset0_pos1_min[1]" : [ -10.0 ],
+					"preset0_pos1_min[2]" : [ -10.0 ],
+					"preset0_pos1_min[3]" : [ -10.0 ],
+					"preset0_pos2" : [ -2.0 ],
+					"preset0_pos2[1]" : [ -2.0 ],
+					"preset0_pos2[2]" : [ 2.0 ],
+					"preset0_pos2[3]" : [ 2.0 ],
+					"preset0_pos2_max" : [ 10.0 ],
+					"preset0_pos2_max[1]" : [ 10.0 ],
+					"preset0_pos2_max[2]" : [ 10.0 ],
+					"preset0_pos2_max[3]" : [ 10.0 ],
+					"preset0_pos2_min" : [ -10.0 ],
+					"preset0_pos2_min[1]" : [ -10.0 ],
+					"preset0_pos2_min[2]" : [ -10.0 ],
+					"preset0_pos2_min[3]" : [ -10.0 ],
+					"preset0_pos3" : [ -2.0 ],
+					"preset0_pos3[1]" : [ 2.0 ],
+					"preset0_pos3[2]" : [ 2.0 ],
+					"preset0_pos3[3]" : [ -2.0 ],
+					"preset0_pos3_max" : [ 10.0 ],
+					"preset0_pos3_max[1]" : [ 10.0 ],
+					"preset0_pos3_max[2]" : [ 10.0 ],
+					"preset0_pos3_max[3]" : [ 10.0 ],
+					"preset0_pos3_min" : [ -10.0 ],
+					"preset0_pos3_min[1]" : [ -10.0 ],
+					"preset0_pos3_min[2]" : [ -10.0 ],
+					"preset0_pos3_min[3]" : [ -10.0 ],
+					"preset0_pos4" : [ -2.0 ],
+					"preset0_pos4[1]" : [ -2.0 ],
+					"preset0_pos4[2]" : [ 2.0 ],
+					"preset0_pos4[3]" : [ 2.0 ],
+					"preset0_pos4_max" : [ 10.0 ],
+					"preset0_pos4_max[1]" : [ 10.0 ],
+					"preset0_pos4_max[2]" : [ 10.0 ],
+					"preset0_pos4_max[3]" : [ 10.0 ],
+					"preset0_pos4_min" : [ -10.0 ],
+					"preset0_pos4_min[1]" : [ -10.0 ],
+					"preset0_pos4_min[2]" : [ -10.0 ],
+					"preset0_pos4_min[3]" : [ -10.0 ],
+					"preset0_pos5" : [ -2.0 ],
+					"preset0_pos5[1]" : [ 2.0 ],
+					"preset0_pos5[2]" : [ 2.0 ],
+					"preset0_pos5[3]" : [ -2.0 ],
+					"preset0_pos5_max" : [ 10.0 ],
+					"preset0_pos5_max[1]" : [ 10.0 ],
+					"preset0_pos5_max[2]" : [ 10.0 ],
+					"preset0_pos5_max[3]" : [ 10.0 ],
+					"preset0_pos5_min" : [ -10.0 ],
+					"preset0_pos5_min[1]" : [ -10.0 ],
+					"preset0_pos5_min[2]" : [ -10.0 ],
+					"preset0_pos5_min[3]" : [ -10.0 ],
+					"preset0_pos6" : [ -2.0 ],
+					"preset0_pos6[1]" : [ -2.0 ],
+					"preset0_pos6[2]" : [ 2.0 ],
+					"preset0_pos6[3]" : [ 2.0 ],
+					"preset0_pos6_max" : [ 10.0 ],
+					"preset0_pos6_max[1]" : [ 10.0 ],
+					"preset0_pos6_max[2]" : [ 10.0 ],
+					"preset0_pos6_max[3]" : [ 10.0 ],
+					"preset0_pos6_min" : [ -10.0 ],
+					"preset0_pos6_min[1]" : [ -10.0 ],
+					"preset0_pos6_min[2]" : [ -10.0 ],
+					"preset0_pos6_min[3]" : [ -10.0 ],
+					"preset0_pos7" : [ -2.0 ],
+					"preset0_pos7[1]" : [ 2.0 ],
+					"preset0_pos7[2]" : [ 2.0 ],
+					"preset0_pos7[3]" : [ -2.0 ],
+					"preset0_pos7_max" : [ 10.0 ],
+					"preset0_pos7_max[1]" : [ 10.0 ],
+					"preset0_pos7_max[2]" : [ 10.0 ],
+					"preset0_pos7_max[3]" : [ 10.0 ],
+					"preset0_pos7_min" : [ -10.0 ],
+					"preset0_pos7_min[1]" : [ -10.0 ],
+					"preset0_pos7_min[2]" : [ -10.0 ],
+					"preset0_pos7_min[3]" : [ -10.0 ],
+					"preset0_pos8" : [ -2.0 ],
+					"preset0_pos8[1]" : [ -2.0 ],
+					"preset0_pos8[2]" : [ 2.0 ],
+					"preset0_pos8[3]" : [ 2.0 ],
+					"preset0_pos8_max" : [ 10.0 ],
+					"preset0_pos8_max[1]" : [ 10.0 ],
+					"preset0_pos8_max[2]" : [ 10.0 ],
+					"preset0_pos8_max[3]" : [ 10.0 ],
+					"preset0_pos8_min" : [ -10.0 ],
+					"preset0_pos8_min[1]" : [ -10.0 ],
+					"preset0_pos8_min[2]" : [ -10.0 ],
+					"preset0_pos8_min[3]" : [ -10.0 ],
+					"preset_alignment_amount" : [ 0.0 ],
+					"preset_alignment_amount_interest" : [ 0 ],
+					"preset_alignment_amount_max" : [ 1.0 ],
+					"preset_alignment_amount_min" : [ 0.0 ],
+					"preset_alignment_dist" : [ 20.0 ],
+					"preset_alignment_dist_interest" : [ 0 ],
+					"preset_alignment_dist_max" : [ 20.0 ],
+					"preset_alignment_dist_min" : [ 0.001 ],
+					"preset_cohesion_amount" : [ 0.02 ],
+					"preset_cohesion_amount_interest" : [ 0 ],
+					"preset_cohesion_amount_max" : [ 1.0 ],
+					"preset_cohesion_amount_min" : [ 0.0 ],
+					"preset_cohesion_dist" : [ 20.0 ],
+					"preset_cohesion_dist_interest" : [ 0 ],
+					"preset_cohesion_dist_max" : [ 20.0 ],
+					"preset_cohesion_dist_min" : [ 0.001 ],
+					"preset_evasion_amount" : [ 0.0 ],
+					"preset_evasion_amount_interest" : [ 0 ],
+					"preset_evasion_amount_max" : [ 1.0 ],
+					"preset_evasion_amount_min" : [ 0.0 ],
+					"preset_evasion_dist" : [ 0.1 ],
+					"preset_evasion_dist_interest" : [ 0 ],
+					"preset_evasion_dist_max" : [ 100.0 ],
+					"preset_evasion_dist_min" : [ 0.001 ],
+					"random" : [ 0.102976443123939 ],
+					"random_interest" : [ 0 ],
+					"random_max" : [ 1.0 ],
+					"random_min" : [ 0.0 ],
+					"sim_rate" : [ 20.0 ],
+					"sim_rate_interest" : [ 0 ],
+					"sim_rate_max" : [ 20.0 ],
+					"sim_rate_min" : [ 0.1 ],
+					"step_size" : [ 0.098018357385399 ],
+					"step_size_interest" : [ 0 ],
+					"step_size_max" : [ 0.5 ],
+					"step_size_min" : [ 0.0 ],
+					"target_pos0" : [ 0.0 ],
+					"target_pos0_max" : [ 5.0 ],
+					"target_pos0_min" : [ -5.0 ],
+					"target_pos1" : [ 0.0 ],
+					"target_pos1_max" : [ 5.0 ],
+					"target_pos1_min" : [ -5.0 ],
+					"target_pos2" : [ 0.0 ],
+					"target_pos2_max" : [ 5.0 ],
+					"target_pos2_min" : [ -5.0 ],
+					"target_pos3" : [ 0.0 ],
+					"target_pos3_max" : [ 5.0 ],
+					"target_pos3_min" : [ -5.0 ],
+					"target_pos4" : [ 0.0 ],
+					"target_pos4_max" : [ 5.0 ],
+					"target_pos4_min" : [ -5.0 ],
+					"target_pos5" : [ 0.0 ],
+					"target_pos5_max" : [ 5.0 ],
+					"target_pos5_min" : [ -5.0 ],
+					"target_pos6" : [ 0.0 ],
+					"target_pos6_max" : [ 5.0 ],
+					"target_pos6_min" : [ -5.0 ],
+					"target_pos7" : [ 0.0 ],
+					"target_pos7_max" : [ 5.0 ],
+					"target_pos7_min" : [ -5.0 ],
+					"target_pos8" : [ 0.0 ],
+					"target_pos8_max" : [ 5.0 ],
+					"target_pos8_min" : [ -5.0 ],
+					"target_position_amount" : [ 0.0 ],
+					"target_position_amount_interest" : [ 0 ],
+					"target_position_amount_max" : [ 1.0 ],
+					"target_position_amount_min" : [ 0.0 ],
+					"target_position_interest" : [ 0 ],
+					"target_vel0" : [ 0.0 ],
+					"target_vel0_max" : [ 1.0 ],
+					"target_vel0_min" : [ -1.0 ],
+					"target_vel1" : [ 0.0 ],
+					"target_vel1_max" : [ 1.0 ],
+					"target_vel1_min" : [ -1.0 ],
+					"target_vel2" : [ 0.0 ],
+					"target_vel2_max" : [ 1.0 ],
+					"target_vel2_min" : [ -1.0 ],
+					"target_vel3" : [ 0.0 ],
+					"target_vel3_max" : [ 1.0 ],
+					"target_vel3_min" : [ -1.0 ],
+					"target_vel4" : [ 0.0 ],
+					"target_vel4_max" : [ 1.0 ],
+					"target_vel4_min" : [ -1.0 ],
+					"target_vel5" : [ 0.0 ],
+					"target_vel5_max" : [ 1.0 ],
+					"target_vel5_min" : [ -1.0 ],
+					"target_vel6" : [ 0.0 ],
+					"target_vel6_max" : [ 1.0 ],
+					"target_vel6_min" : [ -1.0 ],
+					"target_vel7" : [ 0.0 ],
+					"target_vel7_max" : [ 1.0 ],
+					"target_vel7_min" : [ -1.0 ],
+					"target_vel8" : [ 0.0 ],
+					"target_vel8_max" : [ 1.0 ],
+					"target_vel8_min" : [ -1.0 ],
+					"target_vel_amount" : [ 0.0 ],
+					"target_vel_amount_interest" : [ 0 ],
+					"target_vel_amount_max" : [ 1.0 ],
+					"target_vel_amount_min" : [ 0.0 ],
+					"target_velocity_interest" : [ 0 ],
+					"turning_amount" : [ 1.0 ],
+					"turning_amount_interest" : [ 0 ],
+					"turning_amount_max" : [ 1.0 ],
+					"turning_amount_min" : [ 0.0 ],
+					"velocity" : [ 0.17787033106961 ],
+					"velocity_damping" : [ 0.104440789473684 ],
+					"velocity_damping_interest" : [ 0 ],
+					"velocity_damping_max" : [ 1.0 ],
+					"velocity_damping_min" : [ 0.0 ],
+					"velocity_interest" : [ 0 ],
+					"velocity_max" : [ 1.0 ],
+					"velocity_min" : [ 0.0 ]
+				}
