@@ -35,7 +35,7 @@ s.waitForBoot({
 
 		var numsamp = 4410;
 		var rms = RunningSum.rms(input, numsamp).lag(0.01);
-		var factor = exp(-8 * rms);
+		var factor = exp(-4 * rms);
 
 		var del0 = DelayL.ar(input[0], 0.1, [delTimes[0],delTimes[1],delTimes[2]]) * [volumes[0],volumes[1],volumes[2]];
 		var del1 = DelayL.ar(input[1], 0.1, [delTimes[3],delTimes[4],delTimes[5]]) * [volumes[3],volumes[4],volumes[5]];
@@ -46,7 +46,7 @@ s.waitForBoot({
 		var sig1 = MidEQ.ar(Mix(del1), 100 ** (1.8 + reson), db: 2);
 		var sig2 = MidEQ.ar(Mix(del2), 100 ** (1.6 + reson), db: 2);
 
-		LocalOut.ar(LeakDC.ar([sig0, sig1, sig2]) * factor);
+		LocalOut.ar(LeakDC.ar([sig0, sig1, sig2]).tanh * factor);
 
 		output = Splay.ar((del0 * gains[0].lag(1))++(del1 * gains[1].lag(1)) ++ (del2 * gains[2].lag(1))) * 0.05;
 
@@ -82,7 +82,7 @@ s.waitForBoot({
 			var vels = msg.at(((i * 9 + 1)..(i * 9 + 9)));
 			var velSums = [vels[[0,1,2]].abs.sum, vels[[3,4,5]].abs.sum, vels[[6,7,8]].abs.sum];
 			var gains = [1,1,1]; // max
-			var active = [1,1,1,1,1,1,1,1,1]; // unfreezed
+			var active = [1,1,1,1,1,1,1,1,1]; // not freezed
 			3.do{ |j|
 				if(velSums[j] == ~velocitySums[i][j])
 				{ gains[j] = 0.5; active[j*3] = 0; active[j*3+1] = 0; active[j*3+2] = 0 }
